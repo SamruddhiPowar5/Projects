@@ -11,3 +11,21 @@ Landmark-Guided CNN (LM-CNN)
 Both models are evaluated on the FER-2013 dataset using 2-fold cross-validation.
 
 
+Main Contributions
+Re-implementation of the Proposed Model-2 CNN architecture.
+Design of a Landmark-Guided CNN using facial landmark heatmaps.
+Fusion of appearance and geometry information through channel concatenation.
+Experimental comparison between baseline and landmark-guided models.
+Performance evaluation using Accuracy, Precision and F1-score.
+
+Dataset
+FER-2013 is a publicly available facial expression dataset consisting of 48×48 grayscale facial images belonging to seven emotion classes:
+Angry
+Disgust
+Fear
+Happy
+Sad
+Surprise
+Neutral
+The dataset is provided in CSV format and contains 35,887 samples.
+
